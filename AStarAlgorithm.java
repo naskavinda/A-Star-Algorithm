@@ -61,7 +61,7 @@ public class AStarAlgorithm {
         }
 
         start = grid[0][0];
-        end = grid[9][9];
+        end = grid[cols-1][rows-1];
 
         openSet.add(start);
 
